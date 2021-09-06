@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="etiq" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdflabel.EtiqAlmacen">
+   <children>
+      <Label layoutX="20.0" layoutY="32.0" text="Codigo" />
+      <TextField fx:id="nombre" layoutX="102.0" layoutY="28.0" prefHeight="25.0" prefWidth="438.0" />
+      <Label layoutX="20.0" layoutY="70.0" text="Descripcion" />
+
+      <Button layoutX="278.0" layoutY="294.0" mnemonicParsing="false" onAction="#Imprimir" prefHeight="56.0" prefWidth="136.0" text="Imprimir" />
+      <TextField fx:id="dir1" layoutX="102.0" layoutY="66.0" prefHeight="25.0" prefWidth="438.0" />
+
+   </children>
+</AnchorPane>

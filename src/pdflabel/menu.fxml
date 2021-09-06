@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdflabel.menuControler">
+   <children>
+      <Button fx:id="btnAmazon" layoutX="196.0" layoutY="14.0" mnemonicParsing="false" onAction="#Amazon" prefHeight="62.0" prefWidth="208.0" text="Etiqueta Amazon" />
+      <Button fx:id="bntEtiqueta" layoutX="196.0" layoutY="83.0" mnemonicParsing="false" onAction="#Etiqueta" prefHeight="71.0" prefWidth="208.0" text="Etiqueta de Envío" />
+      <Button fx:id="bntAlmacen" layoutX="196.0" layoutY="175.0" mnemonicParsing="false" onAction="#Almacen" prefHeight="71.0" prefWidth="208.0" text="Etiqueta de Almacen" />
+   </children>
+</AnchorPane>

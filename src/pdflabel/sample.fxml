@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="principal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#PruebaImp" prefHeight="585.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdflabel.Controller">
+   <children>
+      <ScrollPane layoutX="14.0" layoutY="62.0" prefHeight="329.0" prefWidth="573.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="table" prefHeight="329.0" prefWidth="573.0" />
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button fx:id="btnImportar" layoutX="14.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#getTheUserFilePath" prefHeight="25.0" prefWidth="184.0" text="Cargar PDF" />
+      <Label fx:id="archivo" layoutX="14.0" layoutY="38.0" prefHeight="17.0" prefWidth="420.0" text="Archivo:" />
+      <Button fx:id="PruebaImp" layoutX="238.0" layoutY="520.0" mnemonicParsing="false" onMouseClicked="#PruebaImp" text="Prueba de Impresion" />
+   </children>
+</AnchorPane>
